@@ -12,9 +12,7 @@ function submit()
         {
             if (b[i]== ap[j])
             {
-                b[i]=ap[j+1];
                 enc[i]=ap[j+1];
-                console.log(enc[i]);
             }
         }
         
